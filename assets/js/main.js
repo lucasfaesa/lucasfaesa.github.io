@@ -64,7 +64,7 @@
 		// Parallax background.
 
 			// Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
-				if (browser.name == 'ie'
+			/*	if (browser.name == 'ie'
 				||	browser.mobile)
 					settings.parallax = false;
 
@@ -91,14 +91,15 @@
 					$window.triggerHandler('scroll');
 				});
 
-			}
+			}*/
+
 
 	// Main Sections: Two.
 
 		// Lightbox gallery.
-			$window.on('load', function() {
+			/*$window.on('load', function() {
 
-				$('#two').poptrox({
+				$('#gallery1').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -112,6 +113,56 @@
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
+			});*/
+
+			/*$window.on('load', function() {
+
+				for (var i = 1; i <= 30; i++) {
+					$('#gallery' + i).poptrox({
+						caption: function($a) { return $a.next('h3').text(); },
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.work-item a.image',
+						usePopupCaption: true,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+					});
+				}
+			
+			});*/
+
+			$window.on('load', function() {
+
+				for (var i = 1; i <= 100; i++) {
+					var galleryId = '#gallery' + i;
+					if (!$(galleryId).length) {
+						break; // Exit the loop if the gallery doesn't exist
+					}
+					
+					//console.log("executed");
+
+					$(galleryId).poptrox({
+						caption: function($a) { return $a.next('h3').text(); },
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.work-item a.image',
+						usePopupCaption: true,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+					});
+				}
+			
 			});
+
+
+						
 
 })(jQuery);

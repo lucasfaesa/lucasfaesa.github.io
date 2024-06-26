@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Lucas Rios - Robotim</title>
+	<title>Lucas Rios - Projects</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -28,8 +28,8 @@
 	<!-- Main -->
 	<div id="main">
 
-		<!-- One -->
-		<section id="one">
+		<!-- ################################################### Robotim ############################################################################# -->
+		<section id="robotim">
 			<header class="major">
 				<h2>Robotim / Teacher's Area<br />
 			</header>
@@ -59,7 +59,7 @@
 				quantity of accesses,
 				completed levels, and many other statistics.</p>
 
-			<section id="two">
+			<section id="gallery1">
 				<div class="row">
 					<article class="col-6 col-12-xsmall work-item">
 						<a href="../pages_content/robotim/teacherDash1.png" class="image fit thumb"><img
@@ -88,7 +88,367 @@
 
 			<p>To play Robotim, you can access it <a href="https://lucasfaesa.github.io/Robotim/"> HERE</a>.</p>
 		</section>
+	
+
+		<!-- ################################################### Net Rush ############################################################################# -->
+		<section id="netrush">
+			<header class="major">
+				<h2>Net Rush<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/netRush.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>“Net Rush" started as a project to test 3D models and animations I built from a Udemy course. Then I got
+				ambitious
+				and wanted to add online multiplayer using Photon Fusion. However, my limited experience (particularly
+				with the
+				Host Mode topology) made it challenging. </p>
+
+			<section id="gallery2">
+				<div class="row">
+					<article class="col-4 col-12-xsmall work-item">
+						<a href="../pages_content/netrush/netrush1.png" class="image fit thumb"><img
+								src="../pages_content/netrush/netrush1.png" alt="" /></a>
+						<h3 style="text-align: center;">Main Menu</h3>
+					</article>
+					<article class="col-4 col-12-xsmall work-item">
+						<a href="../pages_content/netrush/netrush2.png" class="image fit thumb"><img
+								src="../pages_content/netrush/netrush2.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 1</h3>
+					</article>
+					<article class="col-4 col-12-xsmall work-item">
+						<a href="../pages_content/netrush/netrush3.png" class="image fit thumb"><img
+								src="../pages_content/netrush/netrush3.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 2</h3>
+					</article>
+				</div>
+			</section>
+
+			<p>To salvage the project, I focused on local multiplayer only, and I'm really happy with how it turned out!
+				The online multiplayer aspect still tempts me - it would be an awesome addition. Maybe on the next
+				project!</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/net-rush"> HERE</a>.</p>
+		</section>
+
+
+		<!-- ################################################### 5 godot micro games ############################################################################# -->
+		<section id="godotmicrogames">
+			<header class="major">
+				<h2>5 [Godot] Micro-Games<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/GodotMicroGames.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>This project is a compilation of four micro-games I created following the book <b>"Godot 4, Game
+					Development Projects"</b> by <b>Chris Bradfield</b>.
+				The book uses these four games to introduce the fundamentals of Godot.
+			<p>
+
+			<p>Making these games was a very different experience. Previously, I'd only worked with Unity and C#.
+				To challenge myself, I decided to use only GDScript for this project (following the book's guidance
+				with some personal modifications). Godot introduced me to some interesting features, like the particular
+				<code>VisibleOnScreenNotifier</code> node.
+			</p>
+
+			<p>While these games only scratch the surface of Godot's potential, I did encounter some initial hurdles.
+				Unlike Unity, GDScript doesn't utilize <code>private</code> or <code>public</code> declarations,
+				allowing all scripts to access
+				each other. This can lead to tighter coupling and make debugging trickier. Additionally, unlike Unity's,
+				Godot's error messages on the console cannot be clicked to jump directly to the error line. This was and
+				can be frustrating during development.</p>
+
+			<p>Despite these initial bumps, Godot offers a lot to explore. Just like Blender's rise in popularity,
+				Godot has the potential to become a widely adopted game engine. I'm excited to continue following its
+				community and seeing future updates.</p>
+
+			<p>Since the book's focus wasn't web performance or visuals, exporting to HTML5 resulted in some minor
+				performance and visual glitches. However, the convenience of testing in a web browser outweighs
+				these drawbacks. Check them out below!
+			<p>
+
+			<p>You can check out the games <a href="https://lucasfaesa.github.io/Godot4BookProjects/"> HERE</a>. </p>
+		</section>
+
+
+		<!-- ################################################### Coin Dash Lua ############################################################################# -->
+		<section id="coindashlove">
+			<header class="major">
+				<h2>Coin Dash<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/LuaConDash.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>After diving into the world of Godot and dynamic languages, I felt a gap in my foundational computer
+				science knowledge. So, I enrolled in CS50x and dove headfirst into C (a whole other story for another
+				time!).
+				The final project was to create a web server, website, or game using the <strong>LÖVE
+					framework</strong>.</p>
+
+			<p>This was a whole new challenge for me, having no prior experience with LÖVE or similar low-level
+				frameworks.
+				Concepts like physics, collision detection, and simply showing text on the screen, which I took for
+				granted in
+				engines like Unity or Godot, suddenly required a deeper understanding.</p>
+
+			<p>Despite the challenges (especially those hours debugging circular reference errors and finicky collision
+				issues!),
+				it was a rewarding experience, especially for a first-timer. Coin Dash, inspired by my previous “5 Godot
+				Micro-Games”
+				project, is a testament to that! It's a simple, straightforward, and repetitive game, but the feeling of
+				finishing something
+				from scratch is truly <b>satisfying</b>.</p>
+
+			<p>Since LÖVE doesn't have a built-in web exporter, I used a convenient web <a
+					href=https://schellingb.github.io/LoveWebBuilder />conversion tool</a>
+				to make my project playable online. It was a bit picky about fonts, so I had to switch to one of their
+				supported fonts. There's also a
+				slight stutter when coins appear, but a minor inconvenience for the benefit of web play! Better than
+				nothing, right?</p>
+
+			<p>You can check out the game <a href="https://lucasfaesa.github.io/CoinDash-LOVE2D-Web/"> HERE</a>. </p>
+		</section>
+
+
+		<!-- ################################################### Third Bridge ############################################################################# -->
+		<section id="thirdbridge">
+			<header class="major">
+				<h2>Third Bridge<br />
+			</header>
+
+			<div class="row">
+				<article class="col-12">
+					<iframe class="image fit thumb" height="250px"
+						src="https://www.youtube.com/embed/2OHNNaBrJSs?si=I6UJtVgFEMw5Rq4W" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</article>
+			</div>
+
+			<p>“Third Bridge” was created as a challenge/learning experience; I wanted to delve into shaders and a bit
+				of modeling.
+				However, in this game, I only modeled the bridge and its lamp posts; the rest consisted of assets easily
+				found on
+				Sketchfab. The shaders I used included effects of droplets falling to the ground and droplets sliding
+				along the
+				mesh of objects, as well as a water shader.</p>
+
+			<section id="gallery3">
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/thirdbridge/tb1.png" class="image fit thumb"><img
+								src="../pages_content/thirdbridge/tb1.png" alt="" /></a>
+						<h3 style="text-align: center;">Bridge view 1</h3>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/thirdbridge/tb2.png" class="image fit thumb"><img
+								src="../pages_content/thirdbridge/tb2.png" alt="" /></a>
+						<h3 style="text-align: center;">Bridge view 2</h3>
+					</article>
+				</div>
+			</section>
+
+			<p>In terms of gameplay, there's nothing particularly unique; the character simply walks/crouches, and the
+				player
+				must follow a fairly linear path.</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/third-bridge"> HERE</a>. </p>
+		</section>
+
+
+		<!-- ################################################### Endless Racetrack ############################################################################# -->
+		<section id="endlessracetrack">
+			<header class="major">
+				<h2>Endless [Music] Racetrack<br />
+			</header>
+
+			<div class="row">
+
+				<p>Endless (Music) Racer was a personal project aimed at gaining more insight into procedural
+					environment generation.
+					It involves creating a game where the player endlessly drives their car, navigating ramps, with no
+					significant gameplay beyond that.</p>
+
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit"><img src="../images/thumbs/endlessRacetrack.gif" alt="" /></a>
+					</article>
+
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit"><img src="../pages_content/endlessracetrack/endlessRacetrackNight.gif"
+								alt="" /></a>
+					</article>
+				</div>
+
+				<p>Another goal was to have the scenery react to the beats of the music. However, when the game was
+					exported to WebGL,
+					this feature partially ceased to function, causing the colors of the environment to randomly
+					flicker.</p>
+
+				<p>You can check out the game <a href="https://lucasrios.itch.io/endless-music-racetrack"> HERE</a>.
+				</p>
+		</section>
+
+
+		<!-- ################################################### Remember Us ############################################################################# -->
+		<section id="rememberus">
+			<header class="major">
+				<h2>Remember Us<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/RememberUs.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>"Remember Us" was a game created for a game jam at the college where I was studying. It heavily relies on
+				emotional aspects,
+				and its gameplay is essentially about looking around and clicking on items.</p>
+			<section id="gallery4">
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/rememberus/r1.jpg" class="image fit thumb"><img
+								src="../pages_content/rememberus/r1.jpg" alt="" /></a>
+						<h3 style="text-align: center;">Game View 1</h3>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/rememberus/r2.jpg" class="image fit thumb"><img
+								src="../pages_content/rememberus/r2.jpg" alt="" /></a>
+						<h3 style="text-align: center;">Game View 2</h3>
+					</article>
+				</div>
+			</section>
+			<p>It was interesting to learn about rendering 3D objects on the canvas, and it sparked my curiosity about
+				optimization,
+				especially since the game was intended to be played in the browser and featured many graphically
+				intensive assets.</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/remember-us"> HERE</a>. </p>
+
+		</section>
+
+
+		<!-- ################################################### Time Lapse ############################################################################# -->
+		<section id="timelapse">
+			<header class="major">
+				<h2>Time Lapse<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/timelapse.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>"Time Lapse” is a brief game developed during the game jam at my former college. It is a simple
+				side-scrolling game conceived within a short time frame due to the time constraints of the competition,
+				and considering that most of the team were all beginners in programming and using Unity.
+
+			<section id="gallery5">
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/timelapse/t1.png" class="image fit thumb"><img src="../pages_content/timelapse/t1.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 1</h3>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/timelapse/t2.png" class="image fit thumb"><img src="../pages_content/timelapse/t2.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 2</h3>
+					</article>
+				</div>
+			</section>
+
+			<p>As a result, the game follows a straightforward approach: players move to the right, dodging obstacles,
+				while the camera also moves. The goal is to avoid falling behind, as it would result in the player's
+				defeat.</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/time-lapse"> HERE</a>. </p>
+
+		</section>
+
+
+		<!-- ################################################### Cowboys v Aliens ############################################################################# -->
+		<section id="cowboysaliens">
+			<header class="major">
+				<h2>Cowboys vs Aliens<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/cowboysvAliens.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>"Cowboys vs Aliens" was a project for a game design course at my former college, where we were required
+				to develop
+				it for virtual reality, even though nobody had a virtual reality device.</p>
+
+			<section id="gallery6">
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/CowboysVsAliens/c1.png" class="image fit thumb"><img
+								src="../pages_content/CowboysVsAliens/c1.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 1</h3>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="../pages_content/CowboysVsAliens/c2.png" class="image fit thumb"><img
+								src="../pages_content/CowboysVsAliens/c2.png" alt="" /></a>
+						<h3 style="text-align: center;">Game View 2</h3>
+					</article>
+				</div>
+			</section>
+
+			<p>Consequently, the game was created using SteamVR and draws heavily from the gameplay of "Plants vs
+				Zombies."
+				Fortunately, SteamVR has a good simulator, allowing the game to be played using a mouse and keyboard
+				(the game
+				was never tested on a VR device…).</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/cowboys-vs-aliens"> HERE</a>. </p>
+
+		</section>
+
+
+		<!-- ################################################### Free Throw ############################################################################# -->
+		<section id="freethrow">
+			<header class="major">
+				<h2>Free Throw<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/freeThrow.gif" alt="" /></a>
+				</article>
+			</div>
+
+			<p>"Free Throw" was a game created as a test requested by a company, leading to my hiring as an intern.
+				During this internship, I gained almost all the basic knowledge of programming, Unity C#, and ASP.NET
+				Core that I have. This simple game holds significant importance for me as it marked my entry into the
+				game development job market.</p>
+
+			<p>The game is quite straightforward; using the mouse, players control the force and angle of the ball,
+				and by using the space bar, they launch it. When the ball successfully enters the basket, the basket
+				moves to a random position on the screen.</p>
+
+			<p>You can check out the game <a href="https://lucasrios.itch.io/freethrow"> HERE</a>. </p>
+
+		</section>
+
 	</div> <!-- Close the main div here -->
+
 
 	<!-- Footer -->
 	<footer id="footer">
