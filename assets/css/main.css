@@ -206,9 +206,9 @@ input, select, textarea {
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #0d0d0d;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #863232;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -2689,7 +2689,7 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -2783,7 +2783,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #fff;
+		background: #575757;
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
@@ -2824,7 +2824,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #fff;
+			background: #0b0a0a;
 			bottom: 0;
 			cursor: default;
 			font-size: 0.9em;

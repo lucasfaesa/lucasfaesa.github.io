@@ -1,89 +1,102 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>5 Micro Games</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar" onclick="returnToHome()"><img src="../images/avatar.jpg" alt="" /></a>
-					<script>
-						function returnToHome() {
-							window.location.href = '/';
-						}
-					</script>
-					<h1><strong>I'm Lucas Rios</strong>, a game programmer<br />
-						and enthusiast of RPGs and souls-like games<br />
-				</div>
+<head>
+	<title>Lucas Rios - 5 Micro Games</title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar" onclick="returnToHome()"><img src="../images/avatar.jpg" alt="" /></a>
+			<script>
+				function returnToHome() {
+					window.location.href = '/';
+				}
+			</script>
+			<h1><strong>I'm Lucas Rios</strong>, a game programmer<br />
+				and enthusiast of RPGs and souls-like games<br />
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2>5 [Godot] Micro-Games<br />
 			</header>
 
-		<!-- Main -->
-			<div id="main">
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><img src="../images/thumbs/GodotMicroGames.gif" alt="" /></a>
+				</article>
+			</div>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>5 [Godot] Micro-Games<br />
-						</header>
+			<p>This project is a compilation of four micro-games I created following the book <b>"Godot 4, Game
+					Development Projects"</b> by <b>Chris Bradfield</b>.
+				The book uses these four games to introduce the fundamentals of Godot.
+			<p>
 
-						<div class="row">
-							<article class="col-8 col-12-xsmall work-item">
-								<a class="image fit"><img src="../images/thumbs/GodotMicroGames.gif" alt="" /></a>
-							</article>
-						</div>
+			<p>Making these games was a very different experience. Previously, I'd only worked with Unity and C#.
+				To challenge myself, I decided to use only GDScript for this project (following the book's guidance
+				with some personal modifications). Godot introduced me to some interesting features, like the particular
+				<code>VisibleOnScreenNotifier</code> node.
+			</p>
 
-						<p>This project is a compilation of four micro-games I created following the book <b>"Godot 4, Game Development Projects"</b> by <b>Chris Bradfield</b>. 
-							The book uses these four games to introduce the fundamentals of Godot.<p>
+			<p>While these games only scratch the surface of Godot's potential, I did encounter some initial hurdles.
+				Unlike Unity, GDScript doesn't utilize <code>private</code> or <code>public</code> declarations,
+				allowing all scripts to access
+				each other. This can lead to tighter coupling and make debugging trickier. Additionally, unlike Unity's,
+				Godot's error messages on the console cannot be clicked to jump directly to the error line. This was and
+				can be frustrating during development.</p>
 
-							<p>Making these games was a very different experience. Previously, I'd only worked with Unity and C#. 
-								To challenge myself, I decided to use only GDScript for this project (following the book's guidance 
-								with some personal modifications). Godot introduced me to some interesting features, like the particular 
-								<code>VisibleOnScreenNotifier</code> node.</p>
-							
-							<p>While these games only scratch the surface of Godot's potential, I did encounter some initial hurdles. 
-								Unlike Unity, GDScript doesn't utilize <code>private</code> or <code>public</code> declarations, allowing all scripts to access 
-								each other. This can lead to tighter coupling and make debugging trickier. Additionally, unlike Unity's,
-								 Godot's error messages on the console cannot be clicked to jump directly to the error line. This was and 
-								 can be frustrating during development.</p>
-							
-							<p>Despite these initial bumps, Godot offers a lot to explore. Just like Blender's rise in popularity,
-								 Godot has the potential to become a widely adopted game engine. I'm excited to continue following its
-								  community and seeing future updates.</p>
-							
-							<p>Since the book's focus wasn't web performance or visuals, exporting to HTML5 resulted in some minor 
-								performance and visual glitches. However, the convenience of testing in a web browser outweighs 
-								these drawbacks. Check them out below!<p>
-							
-							<p>You can check out the games <a href="https://lucasfaesa.github.io/Godot4BookProjects/"> HERE</a>. </p>
-					</section>
-				</div> <!-- Close the main div here -->
+			<p>Despite these initial bumps, Godot offers a lot to explore. Just like Blender's rise in popularity,
+				Godot has the potential to become a widely adopted game engine. I'm excited to continue following its
+				community and seeing future updates.</p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/lucasfaesa" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/lucasescossia/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://lucasrios.itch.io/" class="icon brands fa-itch-io" target="_blank"><span class="label">itch.io</span></a></li>
-								<li><a href="https://lucasfaesa.github.io/resume/" class="icon solid fa-file" target="_blank"><span class="label">Resume</span></a></li>
-								<li><a href="mailto:lucasriosoliveira@proton.me" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-							</ul>
-						</div>
-					</footer>
-		
-				<!-- Scripts -->
-					<script src="../assets/js/jquery.min.js"></script> <!-- Fixed the path -->
-					<script src="../assets/js/jquery.poptrox.min.js"></script>
-					<script src="../assets/js/browser.min.js"></script>
-					<script src="../assets/js/breakpoints.min.js"></script>
-					<script src="../assets/js/util.js"></script>
-					<script src="../assets/js/main.js"></script>
-		
-			</body>
-		</html>
-		
+			<p>Since the book's focus wasn't web performance or visuals, exporting to HTML5 resulted in some minor
+				performance and visual glitches. However, the convenience of testing in a web browser outweighs
+				these drawbacks. Check them out below!
+			<p>
+
+			<p>You can check out the games <a href="https://lucasfaesa.github.io/Godot4BookProjects/"> HERE</a>. </p>
+		</section>
+	</div> <!-- Close the main div here -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://github.com/lucasfaesa" class="icon brands fa-github" target="_blank"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/lucasescossia/" class="icon brands fa-linkedin"
+						target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://lucasrios.itch.io/" class="icon brands fa-itch-io" target="_blank"><span
+							class="label">itch.io</span></a></li>
+				<li><a href="https://lucasfaesa.github.io/resume/" class="icon solid fa-file" target="_blank"><span
+							class="label">Resume</span></a></li>
+				<li><a href="mailto:lucasriosoliveira@proton.me" class="icon solid fa-envelope" target="_blank"><span
+							class="label">Email</span></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script> <!-- Fixed the path -->
+	<script src="../assets/js/jquery.poptrox.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
