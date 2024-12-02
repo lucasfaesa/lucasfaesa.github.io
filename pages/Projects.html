@@ -39,6 +39,72 @@
 	<!-- Main -->
 	<div id="main">
 
+		<!-- ################################################### Orbit ############################################################################# -->
+		<section id="orbit">
+			<header class="major">
+				<h2>Orbit<br />
+			</header>
+
+			<div class="row">
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><video autoplay loop playsinline muted class="image fit thumb">
+						<source src="../images/thumbs/orbitThumb.webm" type="video/webm">
+					</video></a>
+				</article>
+			</div>			
+
+			<p>Orbit is a personal project I created to explore multiplayer systems, state machines, FPS mechanics, enemy AI, and animation. 
+				Initially intended as a cooperative multiplayer game using Photon Fusion's "Shared Mode" for simplicity, I pivoted to PvP 
+				gameplay as developing cooperative mechanics would have been too time-consuming for a learning-focused project.</p>
+
+			<div class="row">
+
+				<article class="col-8 col-12-xsmall work-item">
+					<a class="image fit"><video autoplay loop playsinline muted class="image fit thumb">
+						<source src="../pages_content/orbit/roaming.webm" type="video/webm">
+					</video></a>
+					<p style="text-align: center;">Thinking about how it would be if it was cooperative multiplayer...</p>
+				</article>
+
+			</div>
+
+			<p>Developing the FPS player was one of the most enjoyable parts of the project. While it seemed simple at first, I quickly realized 
+				that synchronizing player actions over the network and ensuring smooth gameplay was more challenging than expected.</p>
+
+			<p>The enemy AI, however, was the most complex aspect. While basic behaviors were easy to implement, making them fair, dynamic, 
+				and networked added significant complexity. Tasks like target switching and synchronizing AI behaviors across the network 
+				proved particularly difficult, leading me to simplify the game and drop the cooperative aspect.</p>
+
+			<p>Animation was another area where I gained valuable knowledge. Using Unity's Animation Rigging package, I was able to dynamically 
+				control character bones, allowing both the player and enemy characters to aim at targets realistically. This small but impactful
+				addition enhanced the game's polish and immersion.</p>
+
+				<div class="row">
+
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit"><video autoplay loop playsinline muted class="image fit thumb">
+							<source src="../pages_content/orbit/enemyAim.webm" type="video/webm">
+						</video></a>
+						<p style="text-align: center;">Enemy aiming at target using Unity's animation rigging package.</p>
+					</article>
+	
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit"><video autoplay loop playsinline muted class="image fit thumb">
+							<source src="../pages_content/orbit/playerAim.webm" type="video/webm">
+						</video></a>
+						<p style="text-align: center;">Player aiming using Unity's animation rigging package</p>
+					</article>
+	
+				</div>
+
+			<p>To finalize the game, I created a simple map, added enemies, and implemented a basic PvP mode to complete the game loop. 
+				Although Shared Mode isn't ideal for PvP shooters, I adapted by designing the shooting mechanics to ensure fairness—if 
+				one player's hit didn't register, the other player wouldn't take damage. While this made the gameplay feel laggy during 
+				testing, it was a reasonable compromise for my first attempt.</p>
+	
+			<p>You can download the game <a href="https://github.com/lucasfaesa/Orbit/releases/tag/Release" target="_blank" rel="noopener noreferrer"> HERE</a>.</p>
+		</section>
+
 		<!-- ################################################### Dungeon raylib ############################################################################# -->
 		<section id="dungeon-raylib">
 			<header class="major">
@@ -101,7 +167,7 @@
 				</article>
 			</div>
 
-			<p>“Robotim” was a project developed as part of my master's degree,
+			<p>"Robotim" was a project developed as part of my master's degree,
 				completed in 2023. It's an educational game designed for middle school students,
 				covering areas such as mathematical operations, the environment, international organizations,
 				diseases, and preventive measures, among other relevant topics.</p>
